@@ -178,11 +178,14 @@ function Index() {
               </span>
             </div>
           </div>
-          <div className="bg-sand aspect-[4/3] rounded-sm flex items-center justify-center">
-            <span className="text-[10px] font-medium uppercase tracking-[0.15em] text-forest/30">
-              Roasting Studio
-            </span>
-          </div>
+          <img
+            src={roastingStudioImage.url}
+            alt="Interior of the Obsidian Bean coffee roasting studio"
+            width={1200}
+            height={800}
+            loading="lazy"
+            className="w-full aspect-[4/3] object-cover rounded-sm"
+          />
         </div>
       </section>
 
