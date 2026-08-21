@@ -4,6 +4,7 @@ import heroImage from "../assets/coffee-hero.jpg.asset.json";
 import blend1Image from "../assets/coffee-blend-1.jpg.asset.json";
 import blend2Image from "../assets/coffee-blend-2.jpg.asset.json";
 import blend3Image from "../assets/coffee-blend-3.jpg.asset.json";
+import roastingStudioImage from "../assets/roasting-studio.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
